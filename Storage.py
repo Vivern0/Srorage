@@ -109,7 +109,7 @@ def help():
     print(f'{"":-<78}')
 
 
-def base():
+def storage():
     print(HEADER)
 
     storage = {}
@@ -163,6 +163,5 @@ def base():
                 print(f'|{k:<10}|{v:-^10}|')
             print(f'{"":-<23}')
 
-
 if __name__ == '__main__':
-    base()
+    storage()
