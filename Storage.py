@@ -102,8 +102,7 @@ def help():
             'clear':'clear storage',
             'exit':'exit from program',
             'help':'show command list',
-            'command format':'$command $item $amount'
-            }
+            'command format':'$command $item $amount'}
     for k, v in com.items():
         print(f'|{k:<25}|{v:<50}|')
     print(f'{"":-<78}')
